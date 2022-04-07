@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "111412835271",
+    "project_id": "notif-flutter-module",
+    "storage_bucket": "notif-flutter-module.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:111412835271:android:1347d6ae3180fcc12fdfe2",
+        "android_client_info": {
+          "package_name": "com.example.projeto_teste"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "111412835271-30tot13glnjoqcrnb0refaaoev8va80k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC9dd7BtDnKzNdQiWD62S56BQ9e4haPL2c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "111412835271-30tot13glnjoqcrnb0refaaoev8va80k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:111412835271:android:0fe4504a91ba382b2fdfe2",
+        "android_client_info": {
+          "package_name": "com.example.teste_modulo.my_flutter.host"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "111412835271-30tot13glnjoqcrnb0refaaoev8va80k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC9dd7BtDnKzNdQiWD62S56BQ9e4haPL2c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "111412835271-30tot13glnjoqcrnb0refaaoev8va80k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

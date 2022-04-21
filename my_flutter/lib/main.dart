@@ -15,7 +15,7 @@ Future init() async {
 
     const firebaseOptions = FirebaseOptions(
       appId: '1:111412835271:android:0fe4504a91ba382b2fdfe2',
-      apiKey: 'API_KEY_',
+      apiKey: 'API_KEY_AQUI',
       projectId: 'notif-flutter-module',
       messagingSenderId: '111412835271',
     );

@@ -10,10 +10,26 @@ void main() async {
 Future init() async {
   try {
     WidgetsFlutterBinding.ensureInitialized();
-    await Firebase.initializeApp();
+    //await Firebase.initializeApp();
+    String name = 'notif-flutter-module';
+
+    const firebaseOptions = FirebaseOptions(
+      appId: '1:111412835271:android:0fe4504a91ba382b2fdfe2',
+      apiKey: 'AIzaSyC9dd7BtDnKzNdQiWD62S56BQ9e4haPL2c',
+      projectId: 'notif-flutter-module',
+      messagingSenderId: '111412835271',
+    );
+    await initializeDefault(firebaseOptions);
   } on Exception catch (error) {
     print("Erro $error");
   }
+}
+
+Future<void> initializeDefault(firebaseOptions) async {
+  FirebaseApp app = await Firebase.initializeApp(
+    options: firebaseOptions,
+  );
+  print('Initialized default app $app');
 }
 
 class MyApp extends StatelessWidget {
